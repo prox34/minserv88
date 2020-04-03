@@ -34,9 +34,7 @@ spec:
             - name: GAMEMODE
               value: survival
             - name: DIFFICULTY
-              value: hard
-            - name: MAX-PLAYERS
-              value: 20    
+              value: hard   
           volumeMounts:
             - mountPath: /data
               name: data
